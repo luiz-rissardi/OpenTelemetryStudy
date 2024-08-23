@@ -9,7 +9,7 @@ import { HttpInstrumentation } from '@opentelemetry/instrumentation-http'
 diag.setLogger(new DiagConsoleLogger(), DiagLogLevel.ERROR)
 
 const sdk = new NodeSDK({
-    serviceName: 'students-api',
+    serviceName: 'students-api-2',
     traceExporter: new OTLPTraceExporter({
         url: 'http://localhost:4317',
         compression: 'gzip'

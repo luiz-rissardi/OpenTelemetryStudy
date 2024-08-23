@@ -1,4 +1,4 @@
-import { initalizeTracing } from './tracing.js'
+import { initalizeTracing } from './tracing.js';
 await initalizeTracing()
 
 import { trace, context } from '@opentelemetry/api';
